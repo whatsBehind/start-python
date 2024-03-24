@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "start-python"
+version = "0.1.0"
+description = ""
+authors = ["puyanh <puyanh18@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+package-mode = false
+
+
+# Add dependencies
+# poetry add requests
+
+# Install dependencies
+# poetry install
+
+# Run Python scripts
+# poetry run python my_script.py
